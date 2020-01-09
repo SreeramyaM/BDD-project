@@ -1,0 +1,62 @@
+package Locators;
+
+public class Dashboard {
+	
+	public class locators{
+		
+		public static final String CASEID                       = "//div/h5[contains(text()=",
+				                   CLOSE_XPATH                  = "']",
+				                   DASHBOARD                    = "//h4[text()='Dashboard']",
+				                   DASHBOARD_ICON               = "(//div[@class='container-fulid']//a/img[@title='iMAGENEcsi'])[1]",
+				                  // NEW_CASE                     = "a[href='#/io-lead/add-case']",
+				                   NEW_CASE						= "//span[text()='New Case']",
+				                   VIEW_DETAILS_PART1           = "//div/h5[contains(text(),'",
+				                   CASE_ID                      = "//div/h5[@title='",
+				                   VIEW_DETAILS_PART2           = "')]/parent::div/parent::div//button[text()='View Details']",
+				                   DRAFT_STATUS_PART1           = "//div/h5[@title='",
+				                   USER_NAME                    = "//td[@title='",
+				                   DRAFT_STATUS_PART2           = "']/parent::div//div/span[text()='Status:']/parent::div",
+				                   SUPER_ADMIN                  = "//a[@aria-expanded='false'][contains(.,'Super Admin')]",
+				                   ADMIN                        = "//a[@aria-expanded='false'][contains(.,'Admin')]",
+				                   ADD_ADMIN                    = "//a[@class='nav-link'][contains(.,'Add Admin')]",
+				                   ADD_SUPER_ADMIN              = "(//div[@class='dropdown-menu submenu show']/ul/li/a)[1]",
+								   ADD_USER					    = "//a[@class='nav-link'][contains(.,'Add User')]",
+								   MANAGE_USER                  = "//a[@class='nav-link'][contains(.,'Manage Users')]",
+								   USERS                        = "dropdown01",
+		                           ADD_TEAMS				    =  "(//li/a[@id='dropdown03']/parent::li//a)[2]",
+								   TEAMS                        = "dropdown03",
+								   ADVANCE_SEARCH               = "//span[text()='Advance Search']",
+								   //SEARCH                       = "//img[contains(@title,'Search')]",
+								   ROLE_DROUP_DOWN              = "(//img[@class='sort_img'])[1]",
+								   ROLE_PART_1                  = "//span[text()='",
+								   SELECTED_ROLE                = "(//ng-select[@placeholder='Role Name'])[1]",
+								   NOT_TO_PROCEED_BUTTON		= "//button[contains(text(),'Not to proceed')]",
+								   NTP_BTN						= "//button[text()='Not To Proceed']",		
+		                           ADD_COMMENT					= "//textarea[@name='addCommnet']",
+								   NTP_SUCESS_MSG				= "//div[contains(text(),concat('Case has been successfully updated to ',\"'\",'Not to proceed',\"'\",' status!'))]",
+								   DNC_BUTTON					= "NonCompliance",
+								   DATA_NON_COMPLIANCE			= "//button[text()='Data Non Compliance']",
+								   DNC_SUCESS_MSG               = "//div[contains(text(),concat('Case has been successfully updated to ','\"','Data non-compliance','\"',' status!'))]",
+								   SUSPEND_Menu					=  "//button[contains(text(),'Suspend')]",
+								   SUSPEND_BTN					= "//div/button[text()='Cancel']/parent::div/button[text()='Suspend']",
+								   RESUME_BTN					= "#reSumeCase",
+								   RESUME_Comment_btn			= "//div/button[text()='Cancel']/parent::div/button[text()='Resume']",
+								   RESUME_SUC_MSG				= "//div[contains(text(),'Case has been successfully resumed!')]",
+								   SUSPEND_SUC_MSG				= "//div[contains(text(),'Case has been successfully suspended!')]",		                         
+								   CASES						= "(//span[text()='Cases'])[1]", 								   
+		                           MANAGE_TEAMS					= "//div[@class='dropdown-menu submenu show']/descendant::span[contains(text(),'Manage Teams')]",								   		                         
+								   DOWNLOAD_BUTTON				= "//button[text()='DOWNLOAD']",		                           				                   
+								   SEARCH_TXTBOX				= "//input[@type='text'][@placeholder='search']",
+		                           Searchimg_image				= "//img[@class='magnifying-glass-Search searchImg']",
+								   Download_button				= "//button[text()='DOWNLOAD']",
+		                           MANAGE_ADMIN                 = "//span[text()='Manage Admin']",
+				                   EDIT_ADMIN                   = "(//span[@class='actionsDropdown actionsDropdownLevel2']/descendant::ul/li[contains(text(),'Edit')])[1]",
+		                           TOAST_USER_EDIT_UPDATED      = "//div[contains(text(),'User details have been successfully updated!')]",
+		                           MANAGE_ADMIN_DASHBOARD       = "//a[text()='Manage Admins']",
+		                           HOME							= "//div[@class='sidebar-header ']/a/img",                         
+		                           TEAMS_MAINMENU               = "//span[text()='Teams']",
+		                           EDIT_TEAM_SUPERADMIN         = "(//span[@class='actionsDropdown actionsDropdownLevel1']/descendant::ul/li[contains(text(),'Edit Team')])[1]";
+
+	}
+
+}
